@@ -1,5 +1,6 @@
 html {
     background: #FFFFFF;
+    
    
 }
 
@@ -24,17 +25,44 @@ body {
     padding: 1em 3em 3em;
 }
 
-
 a{
     font-family: "SoleSans", sans-serif;
-    text-decoration:solid;
+    text-decoration:none;
+    color:#000;}
+
+
+
+
+a:hover{
+    font-family: "SoleSans", sans-serif;
+    text-decoration:none;
+    color:rgb(177, 177, 177);
+}
+
+
+a:link{
+    font-family: "SoleSans", sans-serif;
+    text-decoration:none;
     color:#FFFFFF;
 }
 
-h1,
-h2,
+
+
+h1{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "SoleSans", sans-serif;
+    text-align: center;
+}
+h2{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "SoleSans", sans-serif;
+    text-align: center;
+
+    }
 h3{
-    font-size: 15px;
+    font-size: 30px;
     font-weight: normal;
     font-family: "SoleSans", sans-serif;
     text-align: center;
@@ -43,9 +71,10 @@ h3{
 h4,
 h5,
 h6 {
-    
+    color:#000;
     font-weight: normal;
-    line-height: 1.3;
+    line-height:0%;
+    font-size: 15px;
     text-align: right;
     font-family: "SoleSans", sans-serif;
     max-width: 100%;
@@ -62,21 +91,18 @@ h4 {
 
 h4 {
     color: #000;
-    line-height: 20px;
+    line-height: 0;
     font-size: 100px;
 }
 
-h2 {
-    margin-top: 1.3em;
-    text-align: left;
-}
+
 
 h5 {
     color:#FFFFFF;
     position: absolute;
     top: 33%;
     width: 100%;
-    line-height: .25;
+    line-height: 90px;
     font-size: 80px;
     text-align: center;
     
@@ -110,12 +136,12 @@ img {
 .image{
     position: relative;
     width: 100%;
-
+    
 }
 
 canvas{
         
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     padding-left: 20%;
     width: 100%;
